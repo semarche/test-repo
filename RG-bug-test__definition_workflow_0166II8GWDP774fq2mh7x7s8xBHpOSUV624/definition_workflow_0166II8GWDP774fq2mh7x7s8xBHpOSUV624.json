@@ -1,0 +1,72 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_0166II8GWDP774fq2mh7x7s8xBHpOSUV624",
+    "name": "RG bug tests",
+    "title": "RG bug tests",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": [
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "local",
+          "name": "local str",
+          "type": "datatype.string"
+        },
+        "unique_name": "variable_workflow_0166NWD5R8JK02nDndga5Z1Ij4bJuYEXTxH",
+        "object_type": "variable_workflow"
+      }
+    ],
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "display_name": "RG bug tests",
+      "favorite": false,
+      "target": {
+        "target_type": "web-service.endpoint",
+        "target_id": "definition_target_015EKYLG9Q6JN3t0IwhaC2qWMUFFXNMUXF0",
+        "execute_on_workflow_target": true
+      },
+      "timeout": 3600
+    },
+    "object_type": "definition_workflow",
+    "categories": [
+      "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+    ]
+  },
+  "targets": {
+    "definition_target_015EKYLG9Q6JN3t0IwhaC2qWMUFFXNMUXF0": {
+      "unique_name": "definition_target_015EKYLG9Q6JN3t0IwhaC2qWMUFFXNMUXF0",
+      "name": "ry AppD",
+      "title": "ry AppD",
+      "type": "web-service.endpoint",
+      "base_type": "target",
+      "object_type": "definition_target",
+      "properties": {
+        "default_runtime_user_id": "definition_runtime_user_015EKYHG0G9943qMboShouB28zZxfmNK0RH",
+        "disable_certificate_validation": true,
+        "display_name": "ry AppD",
+        "host": "cisco1.saas.appdynamics.com",
+        "no_runtime_user": false,
+        "path": "/controller",
+        "protocol": "https"
+      }
+    }
+  },
+  "runtime_users": {
+    "definition_runtime_user_015EKYHG0G9943qMboShouB28zZxfmNK0RH": {
+      "unique_name": "definition_runtime_user_015EKYHG0G9943qMboShouB28zZxfmNK0RH",
+      "name": "ry AppD",
+      "title": "ry AppD",
+      "type": "runtime_user.web-service_basic_credentials",
+      "base_type": "runtime_user",
+      "object_type": "definition_runtime_user",
+      "properties": {
+        "display_name": "ry AppD"
+      }
+    }
+  }
+}
