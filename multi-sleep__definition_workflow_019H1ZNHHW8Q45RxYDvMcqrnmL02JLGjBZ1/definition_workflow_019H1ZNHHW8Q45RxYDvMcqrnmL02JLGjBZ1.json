@@ -1,0 +1,104 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_019H1ZNHHW8Q45RxYDvMcqrnmL02JLGjBZ1",
+    "name": "multi_sleep",
+    "title": "multi_sleep",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": null,
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "display_name": "multi_sleep",
+      "runtime_user": {
+        "override_target_runtime_user": false,
+        "specify_on_workflow_start": false,
+        "target_default": true
+      },
+      "target": {
+        "execute_on_target_group": false,
+        "execute_on_workflow_target": false,
+        "no_target": true,
+        "specify_on_workflow_start": false
+      }
+    },
+    "object_type": "definition_workflow",
+    "actions": [
+      {
+        "unique_name": "definition_activity_019H1ZPQGJQJG5Ap35mETsR6loM5uK7wbpc",
+        "name": "Sleep",
+        "title": "Sleep",
+        "type": "core.sleep",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Sleep",
+          "skip_execution": false,
+          "sleep_interval": 9
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_019H1ZQMA45H87JtVNP3HIM8gMIKYTpe3oC",
+        "name": "Sleep",
+        "title": "Sleep",
+        "type": "core.sleep",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Sleep",
+          "skip_execution": false,
+          "sleep_interval": 9
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_019H1ZRH6HF145FBWb0I0MHEZFUapi6hDCG",
+        "name": "Sleep",
+        "title": "Sleep",
+        "type": "core.sleep",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Sleep",
+          "skip_execution": false,
+          "sleep_interval": 9
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_019H1ZSCAYVC02mervW0d0xI1IKwv2Fw6bB",
+        "name": "Sleep",
+        "title": "Sleep",
+        "type": "core.sleep",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Sleep",
+          "skip_execution": false,
+          "sleep_interval": 9
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_019H1ZT8TTFUW00KDkhAJqFGgpVfmZqHQib",
+        "name": "Sleep",
+        "title": "Sleep",
+        "type": "core.sleep",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Sleep",
+          "skip_execution": false,
+          "sleep_interval": 9
+        },
+        "object_type": "definition_activity"
+      }
+    ],
+    "categories": [
+      "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+    ]
+  }
+}
